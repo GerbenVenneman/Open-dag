@@ -1,0 +1,105 @@
+.h1{
+	text-align: center;
+}
+body{
+	margin: 0 auto;
+	width: 968px;
+	background-color: #d3d3d3;
+}
+body h2{
+	font-family:;
+}
+header{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{
+	color: #2ade5d;
+}
+header img{
+	width: 150px;
+	border-image: 1px solid #03357d;
+	border-radius: 15px;
+}
+a{
+	margin-right: 10px;
+	color: #2ade5d;
+	text-decoration: none;
+	border: 1px solid #03357d;
+	padding: 5px;
+	background-color: #03357d;
+	border-radius: 8px;
+}
+.sub-vakken{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+.sub-vakken h3{
+	color: #2ade5d;
+}
+main h2{
+	color: #2ade5d;
+
+}
+.vakken{
+	margin-top: 60px;
+
+}
+.alleVakken{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+	background-color: #03357d;
+	color: whitesmoke;
+}
+
+.tekstkleur{
+	color: grey;
+}
+.rooster img{
+	width: 450;
+}
+.sub-docenten{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sub-docenten img{
+	width: 150px;
+}
+.alleDocenten{
+	display: flex;
+	justify-content: space-between;
+}
+footer{
+	
+	padding-bottom: 20px;
+}
+footer h2{
+	color: #2ade5d;
+
+
+}
+footer li{
+	color: #2ade5d;
+	padding: 20px;
+}
+.contact-locatie{
+	background-color: #03357d;
+}
+.sub-contact-locatie{
+	display: flex;
+	justify-content: space-around;
+}
+.contact-locatie img{
+	width: 928px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+footer h3{
+	color: #2ade5d;
+	margin-left: 20px;
+}
